@@ -1,0 +1,76 @@
+
+#canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  margin:20px auto;
+  border:1px solid #aaa;
+  }
+.chooseWidth{
+  text-align: center;
+  position: relative;
+}
+.pen{
+  font-weight: bold;
+  font-family: Arial
+}
+#linewidth{
+  width: 60%;
+}
+.chooseColor{
+  text-align: center;
+  margin:20px;
+  min-height: 40px;
+  
+}
+.chooseColor button{
+  color: white;
+}
+
+.red{
+  width: 30px;
+  height: 30px;
+  background: red;
+  border:none;
+}
+.green{
+  width: 30px;
+  height: 30px;
+  background: green;
+  border:none;
+}
+.blue{
+  width: 30px;
+  height: 30px;
+  background: blue;
+ border:none;
+}
+.yellow{
+  width: 30px;
+  height: 30px;
+  background: yellow;
+ border:none;
+}
+.black{
+  width: 30px;
+  height: 30px;
+  background: white;
+ border:none;
+}
+.white{
+  width: 30px;
+  height: 30px;
+  background: white;
+ border:none;
+}
+/*
+.chooseColor button:last-child{
+  height: 30px;
+  width: 80px;
+  color:black;
+}*/
+.light{
+  width:40px;
+  height: 40px;
+}
